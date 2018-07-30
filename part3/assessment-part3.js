@@ -13,23 +13,23 @@
 // return the result of your updateAnimal invocation
 
 // CODE HERE...
-
-
+function callBinding(magicAnimals, updateAnimal, id) {
+  //   callBinding.call(magicAnimals, updateAnimal, id);
+}
 
 // *************
 // * PROBLEM 2 *
 // *************
 
 // For this question, you are asked to make a function called 'applyBinding'.
-// This function will take in 3 parameters:
+// This function wilksl take in 3 parameters:
 // magicAnimals (Array), updateAnimal (Function), id (Number).
 // Find the animal that matches the given id, then call the function
 // with the context of the animal, and the array ['being majestic', 'eating rainbows'] as a parameter.
 // return the result of your updateAnimal invocation
 
 // CODE HERE...
-
-
+function applyBinding(magicAnimals, updateAnimal, id) {}
 
 // *************
 // * PROBLEM 3 *
@@ -49,7 +49,7 @@ var foo;
 
 // CODE HERE...
 
-
+function promiseMe($q) {}
 
 // *************
 // * PROBLEM 4 *
@@ -64,3 +64,5 @@ var foo;
 // and then resolve the array as you complete your promise.
 
 // CODE HERE...
+
+function emailList($q, $http) {}

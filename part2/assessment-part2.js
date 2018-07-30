@@ -34,20 +34,16 @@
 // In the second .then function you use, assign the third user object
 // to the variable 'thirdUser' (previously declared) and then return the tenth user object.
 
-var firstUser = 'don\'t touch this string!';
-var thirdUser = 'don\'t touch this string, either!';
+var firstUser = "don't touch this string!";
+var thirdUser = "don't touch this string, either!";
 
 function noWeakLink() {
-
   return $http({
     method: 'GET',
     url: '/api/users'
-  })
+  });
   // CODE HERE...
-
 }
-
-
 
 // *************
 // * PROBLEM 2 *
@@ -68,14 +64,12 @@ function noWeakLink() {
 
 var elephant = {
   name: 'Horton'
-}
+};
 function large() {
-
-  return 'My name is ' + this.name + ' and I am very heavy!'
+  return 'My name is ' + this.name + ' and I am very heavy!';
 }
 // CODE HERE...
-
-
+var boundToElephant = large();
 
 // *************
 // * PROBLEM 3 *
@@ -88,8 +82,7 @@ function large() {
 // and return the bound function.
 
 // CODE HERE...
-
-
+function deathStar(capacity, crew) {}
 
 // *************
 // * PROBLEM 4 *
@@ -103,8 +96,7 @@ function large() {
 // The closure function will return the combined value of assets and liabilities.
 
 // CODE HERE...
-
-
+function accountingOffice(assets) {}
 
 // *************
 // * PROBLEM 5 *
@@ -128,8 +120,7 @@ function large() {
 // };
 
 // CODE HERE...
-
-
+function forgetter(String) {}
 
 // *************
 // * PROBLEM 6 *
@@ -156,3 +147,5 @@ function large() {
 // NOTE: Neither hunger nor danger should be able to exceed 100 or drop below 0.
 
 // CODE HERE...
+
+function frodo(startingHungerValue, startingDangerValue) {}
